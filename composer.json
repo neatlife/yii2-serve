@@ -1,0 +1,20 @@
+{
+    "name": "suxiaolin/yii2-serve",
+    "description": "Yii2 debug serve command like rails s",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "suxiaolin",
+            "email": "suxiaolin@mail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "suxiaolin\\serve\\": ""
+        }
+    }
+}
